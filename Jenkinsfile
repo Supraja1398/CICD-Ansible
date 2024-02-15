@@ -1,6 +1,6 @@
 properties([
     parameters([
-        string(defaultValue: 'Installation', name: 'Playbook Name'),
+        string(defaultValue: 'nginx', name: 'Playbook Name'),
         choice(choices: ['Dry-Run','Playbook-deploy'], name: 'Playbook Action')
     ])
 ])
